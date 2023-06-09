@@ -35,9 +35,6 @@ const Navigation = () => {
                 SIGN IN
               </Link>
             )}
-            <Link className='nav-link' to='/auth'>
-                SIGN IN
-            </Link>
           </div>
         </div>
         <Outlet />
