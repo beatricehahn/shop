@@ -2,7 +2,7 @@ import { createContext, useState } from 'react';
 
 import PRODUCTS from '../shop-data.json';
 
-export const ProductContext = createContext({
+export const ProductsContext = createContext({
     products: []
 });
 
@@ -11,9 +11,9 @@ export const ProductsProvider = ({children}) => {
     const val = {products};
     
     return (
-        <ProductContext.Provider value={val}>
+        <ProductsContext.Provider value={val}>
             {children}
-        </ProductContext.Provider>
+        </ProductsContext.Provider>
     );
 };
 
