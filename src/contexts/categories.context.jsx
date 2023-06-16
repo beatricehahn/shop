@@ -27,8 +27,3 @@ export const CategoriesProvider = ({ children }) => {
         </CategoriesContext.Provider>
     );
 };
-
-/* notes: 
-      to use context, you need the context values 
-      themselves and also a context provider
- */
